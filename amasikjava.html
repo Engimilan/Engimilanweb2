@@ -1,0 +1,116 @@
+<script>
+    
+var nev=(prompt('Kérem a neved!'))
+kiir=nev
+document.write("Szia!: ")
+document.write(kiir)
+
+document.write("<br>")
+document.write("<br>")
+
+var szam1=parseInt(prompt("Kérek egy számot!"))
+var szam2=parseInt(prompt("Kérek egy másik számot!"))
+var szam3=parseInt(prompt("Kérek még egy számot!"))
+var szam4=parseInt(prompt("Kérek még egy számot, ami kettővel lesz megszorozva!"))
+
+osszeg=szam1+szam2
+document.write("Két szám összege: ")
+document.write(osszeg)
+document.write("<br>")
+
+osszeg2=szam1+szam2+szam3
+document.write("Három szám összege: ")
+document.write(osszeg2)
+document.write("<br>")
+
+kulonbseg=szam1-szam2
+document.write("Különbség: ")
+document.write(kulonbseg)
+document.write("<br>")
+
+szorzas=szam1*szam2
+document.write("Szorzás: ")
+document.write(szorzas)
+document.write("<br>")
+
+osztas=szam1/szam2
+document.write("Osztás: ")
+document.write(osztas)
+document.write("<br>")
+
+document.write("A negyedik szám összege: ")
+osszeg3=szam4*2
+document.write(osszeg3)
+
+document.write("<br>")
+document.write("<br>")
+
+var szam5=parseInt(prompt("Kérek egy számot, amit négyzetre emel!"))
+negyzet=szam5*szam5
+document.write("Négyzetre emelt szám: ")
+document.write(negyzet)
+
+document.write("<br>")
+document.write("<br>")
+
+var szam6=parseInt(prompt("Kérek még egy számot, amit négyzetre emel!"))
+negyzet2=szam6*szam6
+document.write("Másik négyzetre emelt szám: ")
+document.write(negyzet2)
+
+document.write("<br>")
+document.write("<br>")
+
+document.write('Négyzet kerülete, területe: ')
+var keru=parseInt(prompt("Kérek még egy számot, ami a négyzet oldala lesz!"))
+document.write("<br>")
+kerulet=keru*keru
+document.write("Kerülete: ")
+document.write(kerulet)
+document.write("<br>")
+kerulet=4*keru
+document.write("Területe: ")
+document.write(kerulet)
+
+document.write("<br>")
+document.write("<br>")
+
+document.write('Téglalap kerülete, területe: ')
+var tegla1=parseInt(prompt("Kérek még egy számot, ami a téglalap egyik lesz!"))
+var tegla2=parseInt(prompt("Kérek még egy számot, ami a téglalap másik oldala lesz!"))
+document.write("<br>")
+kerulet=tegla1*tegla2
+document.write("Kerülete: ")
+document.write(kerulet)
+document.write("<br>")
+kerulet=tegla1*2+tegla2*2
+document.write("Területe: ")
+document.write(kerulet)
+
+document.write("<br>")
+document.write("<br>")
+
+var atlag1=parseInt(prompt("Kérek egy számot, ami átlagolva lesz!"))
+var atlag2=parseInt(prompt("Kérek még egy számot, ami átlagolva lesz!"))
+var atlag3=parseInt(prompt("Kérek még egy számot, ami átlagolva lesz!"))
+atlag=(atlag1+atlag2+atlag3)/3
+document.write("Átlag: ")
+document.write(atlag)
+document.write("<br>")
+
+document.write("<br>")
+document.write("<br>")
+
+var pita=parseInt(prompt("Kérek egy számot, ami a háromszög egyik befogója!"))
+var pita2=parseInt(prompt("Kérek még egy számot, ami a háromszög másik befogója!"))
+pitagor=(pita*pita)+(pita2*pita2)
+pitagor2=Math.sqrt(pitagor);
+let num = pitagor2;
+let n = num.toFixed(2);
+document.write('A háromszög átfogója: ')
+document.write(n)
+    
+document.write("<br>")
+document.write("<br>")
+    
+</script>
